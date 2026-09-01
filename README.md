@@ -1,17 +1,30 @@
-# CloudIntellMal
+# Microgrid Fault Detection and Classification using TCN
 
-Cloud-based intelligent malware detection framework.
+Deep Learning-Based Fault Detection and Classification in Microgrids using Temporal Convolutional Networks (TCN).
 
-## Project Status
+## Project Overview
 
-- [x] Project structure created
-- [ ] Dataset acquisition
-- [ ] Dataset analysis
-- [ ] Preprocessing
-- [ ] Feature extraction
-- [ ] Machine learning model
-- [ ] Model evaluation
-- [ ] Backend/API
-- [ ] AWS deployment
-- [ ] Dashboard
-- [ ] End-to-end testing
+This project develops an intelligent fault detection and classification system for microgrids using three-phase voltage and current signals.
+
+The system uses a Temporal Convolutional Network (TCN) to learn fault patterns directly from the signal data and perform:
+
+- Fault detection
+- Fault classification
+- Performance evaluation
+
+## Project Structure
+
+```text
+data/
+├── raw/
+└── processed/
+
+models/
+notebooks/
+results/
+src/
+├── data_analysis/
+├── preprocessing/
+├── models/
+└── evaluation/
+tests/

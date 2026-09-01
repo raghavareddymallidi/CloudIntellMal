@@ -1,25 +1,29 @@
 # Python
 __pycache__/
 *.py[cod]
+*.pyo
+
+# Virtual environment
 .venv/
 venv/
-
-# Environment variables
-.env
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Large datasets
-data/*
-
-# Trained models
-models/*
-
-# Generated results
-results/*
+env/
 
 # macOS
 .DS_Store
 
-data/extracted/
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated files
+*.log
+
+# Model files
+*.pt
+*.pth
+
+# Data
+data/raw/*
+data/processed/*
+
+# Results
+results/*
