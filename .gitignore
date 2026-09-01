@@ -21,3 +21,5 @@ results/*
 
 # macOS
 .DS_Store
+
+data/extracted/
