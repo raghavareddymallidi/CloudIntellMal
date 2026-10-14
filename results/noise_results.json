@@ -1,0 +1,37 @@
+[
+  {
+    "snr": "Clean",
+    "detection_accuracy": 1.0,
+    "detection_f1": 1.0,
+    "classification_accuracy": 0.9955686853766618,
+    "classification_f1": 0.9955555399976326
+  },
+  {
+    "snr": "40 dB",
+    "detection_accuracy": 1.0,
+    "detection_f1": 1.0,
+    "classification_accuracy": 0.9955686853766618,
+    "classification_f1": 0.9955555399976326
+  },
+  {
+    "snr": "30 dB",
+    "detection_accuracy": 1.0,
+    "detection_f1": 1.0,
+    "classification_accuracy": 0.9955686853766618,
+    "classification_f1": 0.9955555399976326
+  },
+  {
+    "snr": "20 dB",
+    "detection_accuracy": 1.0,
+    "detection_f1": 1.0,
+    "classification_accuracy": 0.9955686853766618,
+    "classification_f1": 0.9955555399976326
+  },
+  {
+    "snr": "10 dB",
+    "detection_accuracy": 1.0,
+    "detection_f1": 1.0,
+    "classification_accuracy": 0.9963072378138847,
+    "classification_f1": 0.9962998473748876
+  }
+]

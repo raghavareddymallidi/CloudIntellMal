@@ -1,0 +1,46 @@
+{
+    "source_domain": "PROTECT-90 Microgrid",
+    "target_domain": "IEEE-13 Node Feeder (Simulated)",
+    "source_accuracy": 0.9955686853766618,
+    "target_accuracy": 0.9859675036927622,
+    "accuracy_drop": 0.009601181683899562,
+    "target_classification_report": {
+        "0": {
+            "precision": 0.9883381924198251,
+            "recall": 0.9941348973607038,
+            "f1-score": 0.9912280701754386,
+            "support": 341.0
+        },
+        "1": {
+            "precision": 1.0,
+            "recall": 0.9704142011834319,
+            "f1-score": 0.984984984984985,
+            "support": 338.0
+        },
+        "2": {
+            "precision": 0.9912023460410557,
+            "recall": 0.9883040935672515,
+            "f1-score": 0.9897510980966325,
+            "support": 342.0
+        },
+        "3": {
+            "precision": 0.9649122807017544,
+            "recall": 0.990990990990991,
+            "f1-score": 0.9777777777777777,
+            "support": 333.0
+        },
+        "accuracy": 0.9859675036927622,
+        "macro avg": {
+            "precision": 0.9861132047906588,
+            "recall": 0.9859610457755946,
+            "f1-score": 0.9859354827587085,
+            "support": 1354.0
+        },
+        "weighted avg": {
+            "precision": 0.9862114589622495,
+            "recall": 0.9859675036927622,
+            "f1-score": 0.9859886059112244,
+            "support": 1354.0
+        }
+    }
+}

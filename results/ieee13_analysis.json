@@ -1,0 +1,25 @@
+{
+  "dataset": "IEEE-13-Node Renewable Energy Fault Dataset",
+  "faulty_events": 3872,
+  "healthy_events": 352,
+  "total_events": 4224,
+  "samples_per_event": 2205,
+  "channels": 3,
+  "channel_names": [
+    "Va (voltage_phaseA)",
+    "Vb (voltage_phaseB)",
+    "Vc (voltage_phaseC)"
+  ],
+  "signal_type": "Voltage only (no current)",
+  "has_fault_type_labels": false,
+  "has_detection_labels": true,
+  "compatible_with_protect90": false,
+  "incompatibility_reasons": [
+    "IEEE-13 has voltage only (no current channels)",
+    "Different number of channels (3 vs 48)",
+    "Different event lengths (1024 vs 6400 samples)",
+    "No fault-type labels in IEEE-13",
+    "Different grid topologies and voltage levels"
+  ],
+  "recommended_strategy": "Separate training/evaluation; IEEE-13 for supplementary binary detection only"
+}

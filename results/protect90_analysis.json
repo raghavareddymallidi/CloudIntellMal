@@ -1,0 +1,42 @@
+{
+  "dataset": "PROTECT-90 (HV Double Line 90kV)",
+  "total_episodes": 9022,
+  "sampling_rate_hz": 6410.25641025641,
+  "duration_per_episode_s": 0.999844,
+  "samples_per_episode": 6400,
+  "num_channels": 48,
+  "voltage_channels": 24,
+  "current_channels": 24,
+  "window_size": 256,
+  "fault_types": {
+    "0": {
+      "name": "Single Line-to-Ground (SLG)",
+      "count": 2273
+    },
+    "1": {
+      "name": "Line-to-Line (LL)",
+      "count": 2251
+    },
+    "2": {
+      "name": "Double Line-to-Ground (DLG)",
+      "count": 2279
+    },
+    "3": {
+      "name": "Three-Phase (LLL/LLLG)",
+      "count": 2219
+    }
+  },
+  "fault_resistance_range": {
+    "min": 0.101793332593305,
+    "max": 9.9992947467545,
+    "mean": 5.06038000913201
+  },
+  "split": {
+    "train_episodes": 6315,
+    "validation_episodes": 1353,
+    "test_episodes": 1354,
+    "train_windows": 12630,
+    "validation_windows": 2706,
+    "test_windows": 2708
+  }
+}

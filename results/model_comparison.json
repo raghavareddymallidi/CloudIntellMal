@@ -1,0 +1,47 @@
+[
+  {
+    "model": "TCN",
+    "det_accuracy": 1.0,
+    "det_f1": 1.0,
+    "cls_accuracy": 0.9955686853766618,
+    "cls_f1": 0.9955555399976326,
+    "training_time_s": null,
+    "inference_ms": 0.09212421701789078
+  },
+  {
+    "model": "Decision Tree",
+    "det_accuracy": 0.9852,
+    "det_f1": 0.9851,
+    "cls_accuracy": 0.8279,
+    "cls_f1": 0.8269,
+    "training_time_s": null,
+    "inference_ms": null
+  },
+  {
+    "model": "SVM",
+    "det_accuracy": 0.9982,
+    "det_f1": 0.9982,
+    "cls_accuracy": 0.6498999999999999,
+    "cls_f1": 0.6302,
+    "training_time_s": 19.23,
+    "inference_ms": null
+  },
+  {
+    "model": "CNN",
+    "det_accuracy": 0.9992614475627769,
+    "det_f1": 0.9992609016999261,
+    "cls_accuracy": 0.9970457902511078,
+    "cls_f1": 0.9970406726425695,
+    "training_time_s": 37.358378887176514,
+    "inference_ms": 0.04460522836209048
+  },
+  {
+    "model": "LSTM",
+    "det_accuracy": 1.0,
+    "det_f1": 1.0,
+    "cls_accuracy": 0.9933530280649926,
+    "cls_f1": 0.9933267944349193,
+    "training_time_s": 147.00306296348572,
+    "inference_ms": 0.16606170986744642
+  }
+]

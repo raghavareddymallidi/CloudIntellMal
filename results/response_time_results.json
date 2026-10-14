@@ -1,0 +1,28 @@
+{
+  "model": "TCN",
+  "parameters": 538822,
+  "receptive_field": 181,
+  "system": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "processor": "arm",
+    "python_version": "3.12.7",
+    "pytorch_version": "2.13.0",
+    "device": "mps"
+  },
+  "single_sample": {
+    "num_samples": 1000,
+    "average_ms": 1.0338162179978099,
+    "std_ms": 0.3964126536795083,
+    "min_ms": 0.5514999998013081,
+    "max_ms": 2.642790999743738,
+    "median_ms": 1.0755204998531553
+  },
+  "batch": {
+    "batch_size": 64,
+    "average_per_sample_ms": 0.08868490152557369,
+    "std_per_sample_ms": 0.22054884063214703,
+    "min_per_sample_ms": 0.018110015624017706,
+    "max_per_sample_ms": 1.4517749999868101,
+    "throughput_samples_per_s": 11275.876533635595
+  }
+}

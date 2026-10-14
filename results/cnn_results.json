@@ -1,0 +1,57 @@
+{
+  "model": "CNN",
+  "parameters": 129478,
+  "detection": {
+    "accuracy": 0.9992614475627769,
+    "precision": 1.0,
+    "recall": 0.9985228951255539,
+    "f1_score": 0.9992609016999261,
+    "confusion_matrix": [
+      [
+        1354,
+        0
+      ],
+      [
+        2,
+        1352
+      ]
+    ]
+  },
+  "classification": {
+    "accuracy": 0.9970457902511078,
+    "precision_macro": 0.997095092804475,
+    "recall_macro": 0.9970081027773335,
+    "f1_macro": 0.9970406726425695,
+    "confusion_matrix": [
+      [
+        341,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        337,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        342,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        330
+      ]
+    ]
+  },
+  "timing": {
+    "training_time_s": 37.358378887176514,
+    "inference_per_sample_ms": 0.04460522836209048,
+    "best_epoch": 17
+  }
+}

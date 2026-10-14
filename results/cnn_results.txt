@@ -1,0 +1,32 @@
+CNN BASELINE RESULTS
+========================================
+
+Parameters: 129,478
+Best epoch: 17
+
+Fault Detection
+------------------------------
+Accuracy : 99.93%
+Precision: 100.00%
+Recall   : 99.85%
+F1 Score : 99.93%
+
+Confusion Matrix:
+[[1354    0]
+ [   2 1352]]
+
+Fault Classification
+------------------------------
+Accuracy : 99.70%
+Precision: 99.71%
+Recall   : 99.70%
+F1 Score : 99.70%
+
+Confusion Matrix:
+[[341   0   0   0]
+ [  1 337   0   0]
+ [  0   0 342   0]
+ [  0   0   3 330]]
+
+Training time: 37.36s
+Inference per sample: 0.045ms

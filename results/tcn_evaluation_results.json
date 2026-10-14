@@ -1,0 +1,86 @@
+{
+  "model": "TCN",
+  "parameters": 538822,
+  "receptive_field": 181,
+  "detection": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "fpr": 0.0,
+    "fnr": 0.0,
+    "confusion_matrix": [
+      [
+        1354,
+        0
+      ],
+      [
+        0,
+        1354
+      ]
+    ]
+  },
+  "classification": {
+    "accuracy": 0.9955686853766618,
+    "precision_macro": 0.9956044657367629,
+    "recall_macro": 0.9955263578745359,
+    "f1_macro": 0.9955555399976326,
+    "confusion_matrix": [
+      [
+        341,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        337,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        341,
+        1
+      ],
+      [
+        1,
+        0,
+        3,
+        329
+      ]
+    ],
+    "per_class": {
+      "Single Line-to-Ground (SLG)": {
+        "precision": 0.9941690962099126,
+        "recall": 1.0,
+        "f1_score": 0.9970760233918129,
+        "support": 341
+      },
+      "Line-to-Line (LL)": {
+        "precision": 1.0,
+        "recall": 0.9970414201183432,
+        "f1_score": 0.9985185185185185,
+        "support": 338
+      },
+      "Double Line-to-Ground (DLG)": {
+        "precision": 0.9912790697674418,
+        "recall": 0.9970760233918129,
+        "f1_score": 0.9941690962099126,
+        "support": 342
+      },
+      "Three-Phase (LLL/LLLG)": {
+        "precision": 0.996969696969697,
+        "recall": 0.987987987987988,
+        "f1_score": 0.9924585218702866,
+        "support": 333
+      }
+    }
+  },
+  "inference": {
+    "total_time_s": 0.24947237968444824,
+    "per_sample_ms": 0.09212421701789078,
+    "throughput_samples_per_s": 10854.90908222099
+  }
+}

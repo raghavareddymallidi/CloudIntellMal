@@ -1,0 +1,50 @@
+SVM BASELINE RESULTS
+====================
+
+Feature Extraction
+------------------
+Method: Statistical features (mean, std, min, max, RMS, peak-to-peak, skewness, kurtosis)
+Raw input shape: (12630, 48, 256)
+Feature shape: (12630, 384)
+Feature extraction time: 3.16s
+
+
+Fault Detection
+----------------
+Accuracy : 99.82%
+Precision: 99.82%
+Recall   : 99.82%
+F1 Score : 99.82%
+Training time: 2.27s
+
+Confusion Matrix:
+[[1354    0]
+ [   5 1349]]
+
+
+Fault Classification
+--------------------
+Accuracy : 64.99%
+Precision: 63.36%
+Recall   : 64.99%
+F1 Score : 63.02%
+Training time: 19.23s
+
+Confusion Matrix:
+[[270  36   3  32]
+ [ 36 213  52  37]
+ [  2  26 297  17]
+ [ 91  74  68 100]]
+
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.68      0.79      0.73       341
+     Class 1       0.61      0.63      0.62       338
+     Class 2       0.71      0.87      0.78       342
+     Class 3       0.54      0.30      0.39       333
+
+    accuracy                           0.65      1354
+   macro avg       0.63      0.65      0.63      1354
+weighted avg       0.63      0.65      0.63      1354

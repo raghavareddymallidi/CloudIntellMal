@@ -1,0 +1,25 @@
+TCN RESPONSE TIME ANALYSIS
+==================================================
+
+System: macOS-26.6.2-arm64-arm-64bit
+Processor: arm
+PyTorch: 2.13.0
+Device: mps
+Model parameters: 538,822
+Receptive field: 181 samples
+
+Single-Sample Inference (1000 samples)
+----------------------------------------
+Average: 1.034 ms
+Std Dev: 0.396 ms
+Minimum: 0.551 ms
+Maximum: 2.643 ms
+Median : 1.076 ms
+
+Batch Inference (batch size 64)
+----------------------------------------
+Average per sample: 0.089 ms
+Std Dev per sample: 0.221 ms
+Minimum per sample: 0.018 ms
+Maximum per sample: 1.452 ms
+Throughput: 11276 samples/s

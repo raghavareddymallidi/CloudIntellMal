@@ -1,0 +1,26 @@
+TCN EVALUATION REPORT
+==================================================
+
+Model parameters: 538,822
+Receptive field: 181 samples
+
+FAULT DETECTION
+------------------------------
+Accuracy : 1.0000
+Precision: 1.0000
+Recall   : 1.0000
+F1 Score : 1.0000
+FPR      : 0.0000
+FNR      : 0.0000
+
+FAULT CLASSIFICATION
+------------------------------
+Accuracy : 0.9956
+Precision: 0.9956 (macro)
+Recall   : 0.9955 (macro)
+F1 Score : 0.9956 (macro)
+
+INFERENCE PERFORMANCE
+------------------------------
+Per-sample: 0.092 ms
+Throughput: 10855 samples/s

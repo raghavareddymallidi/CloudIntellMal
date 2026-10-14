@@ -1,0 +1,14 @@
+Decision Tree Results
+====================
+
+Fault Detection
+Accuracy: 0.9852
+Precision: 0.9940
+Recall: 0.9764
+F1 Score: 0.9851
+
+Fault Classification
+Accuracy: 0.8279
+Precision: 0.8268
+Recall: 0.8273
+F1 Score: 0.8269
