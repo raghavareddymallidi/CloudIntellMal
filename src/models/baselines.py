@@ -15,8 +15,7 @@ from sklearn.metrics import (
 # Paths
 # ------------------------------------------------
 
-DATA_DIR = "data/processed"
-RESULTS_DIR = "results"
+from src.models.config import DATA_DIR, RESULTS_DIR
 
 
 # ------------------------------------------------

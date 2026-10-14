@@ -4,3 +4,8 @@ scipy
 scikit-learn
 matplotlib
 torch
+pytest>=8.1.1
+fastapi
+uvicorn
+pydantic
+captum
