@@ -12,7 +12,8 @@ src/models/
 src/preprocessing/
 tests/
 
-# Ignore root ML requirements.txt so Vercel does not attempt to install
-# heavy PyTorch/scikit-learn packages and trigger PYTHON_ENTRYPOINT_NOT_FOUND
+# Ignore root ML requirements and packaging manifests so Vercel does not
+# attempt to install heavy PyTorch/scikit-learn packages or trigger PYTHON_ENTRYPOINT_NOT_FOUND
 requirements.txt
+pyproject.toml
 
