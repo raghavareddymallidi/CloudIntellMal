@@ -1,0 +1,18 @@
+# Python virtual environments
+.venv
+venv
+env
+
+# Heavy ML models and datasets not intended for serverless bundling
+data/
+models/
+src/data_analysis/
+src/evaluation/
+src/models/
+src/preprocessing/
+tests/
+
+# Ignore root ML requirements.txt so Vercel does not attempt to install
+# heavy PyTorch/scikit-learn packages and trigger PYTHON_ENTRYPOINT_NOT_FOUND
+requirements.txt
+

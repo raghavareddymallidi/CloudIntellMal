@@ -27,5 +27,10 @@ env/
 data/raw/*
 data/processed/*
 
-# Results
+# Results (keep committed evaluation metrics and plots)
 results/*
+!results/*.json
+!results/*.png
+!results/*.txt
+!results/*.npy
+!results/*.csv

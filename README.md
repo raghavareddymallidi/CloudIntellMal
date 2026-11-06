@@ -78,6 +78,20 @@ python -m src.evaluation.compare_models
 python -m pytest tests/ -v
 ```
 
+### 8. Interactive SCADA Dashboard (Local)
+Start the FastAPI backend with PyTorch model inference:
+```bash
+python -m src.api.main
+```
+Then open `http://127.0.0.1:8000/` in your browser.
+
+### 9. Vercel Deployment (Cloud)
+This repository is configured for one-click Vercel deployment:
+- **Zero Configuration**: Simply import the repository in [Vercel](https://vercel.com).
+- `.vercelignore` prevents heavy PyTorch build collisions and solves `PYTHON_ENTRYPOINT_NOT_FOUND`.
+- `vercel.json` and serverless API endpoints in `api/` automatically serve the dashboard, evaluation metrics, and real test-set waveform inference interactively.
+- Optional: Set `window.API_BASE_URL` in `dashboard/config.js` if pointing to an external dedicated backend.
+
 ## Dataset
 
 - **Source**: PROTECT-90 (HV Double Line 90kV)

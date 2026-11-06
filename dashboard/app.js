@@ -122,7 +122,19 @@ const App = () => {
     const [loading, setLoading] = useState(false);
     const [selectedModel, setSelectedModel] = useState('TCN');
 
-    const API_URL = 'http://127.0.0.1:8000/api';
+    const API_URL = (() => {
+        if (typeof window !== 'undefined' && window.API_BASE_URL) {
+            return window.API_BASE_URL.replace(/\/+$/, '');
+        }
+        if (typeof window !== 'undefined' && window.location) {
+            const { hostname, port } = window.location;
+            const isLocal = hostname === '127.0.0.1' || hostname === 'localhost';
+            if (isLocal && port && port !== '8000') {
+                return 'http://127.0.0.1:8000/api';
+            }
+        }
+        return '/api';
+    })();
 
     useEffect(() => {
         fetchData();
